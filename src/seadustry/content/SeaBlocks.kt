@@ -15,7 +15,6 @@ class SeaBlocks {
                 requirements(Category.effect, ItemStack.with(Items.sand, 24))
                 alwaysUnlocked = true
             }
-
         }
     }
 }
