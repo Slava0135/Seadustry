@@ -16,17 +16,15 @@ open class Landfill(name: String) : Block(name) {
         update = true
     }
 
-    override fun canPlaceOn(tile: Tile?, team: Team?): Boolean {
+    override fun canPlaceOn(tile: Tile?, team: Team?, rotation: Int): Boolean {
         return tile != null && tile.floor().liquidDrop != null
     }
 
     inner class LandfillBuild : Building() {
-
         override fun updateTile() {
             tile.setFloor(Blocks.sand as Floor)
             tile.setAir()
-            renderer.blocks.floor.clearTiles()
+            renderer.blocks.floor.recacheTile(tile)
         }
-
     }
 }

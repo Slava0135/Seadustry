@@ -6,6 +6,6 @@ import seadustry.content.SeaBlocks
 class Seadustry : Mod() {
 
     override fun loadContent() {
-        SeaBlocks().load()
+        SeaBlocks.load()
     }
 }

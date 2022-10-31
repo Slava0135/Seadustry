@@ -3,7 +3,7 @@ displayName: "Seadustry"
 author: "Slava0135"
 main: "seadustry.Seadustry"
 description: "Skyblock but in sea"
-version: "0.1"
-minGameVersion: 120
+version: "1.0"
+minGameVersion: 137
 dependencies: [revision]
 
