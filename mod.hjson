@@ -2,7 +2,7 @@ name: "seadustry"
 displayName: "Seadustry"
 author: "Slava0135"
 main: "seadustry.Seadustry"
-description: "Skyblock but in sea"
+description: "Survive on sand island and expand by placing land on water around "
 version: "1.0"
 minGameVersion: 137
 dependencies: [revision]
