@@ -1,4 +1,4 @@
-# Seadustry
+# Seadustry 2.0 - mindustry v8 support
 ### Skyblock but in sea for Mindustry
 
 ## Description

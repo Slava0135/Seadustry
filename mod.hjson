@@ -3,7 +3,7 @@ displayName: "Seadustry"
 author: "Slava0135"
 main: "seadustry.Seadustry"
 description: "Survive on sand island and expand by placing land on water around "
-version: "1.0"
-minGameVersion: 137
+version: "2.0"
+minGameVersion: 147
 dependencies: [revision]
 
